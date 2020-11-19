@@ -4,6 +4,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
     font-family: "Lato";
     line-height: 1.6
 }
@@ -34,7 +37,22 @@ img {
 
 .navbar {
     background-color: #047aed;
-    color: #fff !important;
+    color: #fff;
+    height: 70px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar ul {
+    display: flex
+}
+
+.navbar .flex {
+    justify-content: space-between;
 }
 
 .container {
@@ -42,4 +60,11 @@ img {
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    height: 100%;
 }
