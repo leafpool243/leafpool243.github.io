@@ -71,9 +71,10 @@ img {
     justify-content: space-between;
 }
 
-.showcase {
+.home1 {
     height: 400px;
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
+    color: #fff
 }
 
 .container {
