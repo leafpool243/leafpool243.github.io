@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #f4e0ff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.zh-hant {
+    font-family: "Noto Sans TC";
+}
+
+.west {
+    font-family: "Noto Sans";
+}
+
+body {
+    font-family: "Noto Sans";
+    line-height: 1.6;
+
+    background-color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    border-bottom: 1px rgb(5, 5, 5) solid;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #fff
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: auto;
+    padding: 6px 0px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.langselect {
+    cursor: pointer;
+    border-bottom: none !important;
+}
+
+.lang:hover ul {
+    display: block;
+}
+
+.lang ul {
+    margin: 0;
+    padding: 5px 0px;
+    background-color: #0463BF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.lang ul li a {
+    width: 125px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.lang ul li a:hover {
+    background-color: #0051a1;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.home1 {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* small screens */
+@media(max-width: 822px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    
+    .navbar {
+        height: auto;
+    }
+
+    .navbar .flex {
+        flex-direction: column
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+}
