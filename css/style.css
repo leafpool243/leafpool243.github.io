@@ -19,7 +19,7 @@
 }
 
 .tai {
-    font-family: "Nunito POJ";
+    font-family: "Nunito POJ" !important;
 }
 
 .zh-hant {
