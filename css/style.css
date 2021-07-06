@@ -19,7 +19,7 @@
 }
 
 .tai {
-    font-family: "Nunito POJ" !important;
+    font-family: "Nunito POJ";
 }
 
 .zh-hant {
@@ -31,7 +31,6 @@
 }
 
 body {
-    font-family: "Noto Sans";
     line-height: 1.6;
 
     background-color: var(--secondary-color);
