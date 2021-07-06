@@ -16,17 +16,20 @@
     margin: 0;
 }
 
+.taigi {
+    font-family: "Nunito POJ";
+}
+
 .zh-hant {
     font-family: "Noto Sans TC";
 }
 
 .latn {
-    font-family: serif;
-    /* font-family: "Noto Sans"; */
+    font-family: "Noto Sans";
 }
 
 body {
-    font-family: serif;
+    font-family: "Noto Sans";
     line-height: 1.6;
 
     background-color: var(--secondary-color);
