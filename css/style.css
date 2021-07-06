@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 @font-face {
     font-family: 'Nunito POJ';
-    src: url('fonts/nunitopoj.ttf')  format('truetype'),
-    url('fonts/nunitopoj.woff')  format('woff');
+    src: url('../fonts/nunitopoj.ttf')  format('truetype'),
+    url('../fonts/nunitopoj.woff')  format('woff'),
+    url('../fonts/nunitopoj.woff2')  format('woff');
   }
 
 :root {
