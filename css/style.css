@@ -5,7 +5,14 @@
     src: url('../fonts/nunitopoj.woff2')  format('woff2'),
     url('../fonts/nunitopoj.woff')  format('woff'),
     url('../fonts/nunitopoj.ttf')  format('truetype');
-  }
+}
+
+@font-face {
+    font-family: 'Noto Sans Shavian';
+    src: url('../fonts/NotoSansShavian.woff2')  format('woff2'),
+    url('../fonts/NotoSansShavian.woff')  format('woff'),
+    url('../fonts/NotoSansShavian.ttf')  format('truetype');
+}
 
 :root {
     --primary-color: #047aed;
@@ -19,15 +26,19 @@
 }
 
 .tai {
-    font-family: "Nunito POJ";
+    font-family: "Nunito POJ", sans-serif;
 }
 
 .zh-hant {
-    font-family: "Noto Sans TC";
+    font-family: "Noto Sans TC", sans-serif;
 }
 
 .latn {
-    font-family: "Noto Sans";
+    font-family: "Noto Sans", sans-serif;
+}
+
+.shaw {
+    font-family: "Noto Sans Shavian", sans-serif
 }
 
 body {
