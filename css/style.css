@@ -33,6 +33,14 @@
     font-family: "Noto Sans TC", sans-serif;
 }
 
+em:lang(zh-Hant) {
+    font-style: normal;
+    text-emphasis: dot;
+    -webkit-text-emphasis: dot;
+    text-emphasis-position: under;
+    -webkit-text-emphasis-position: under; 
+}
+
 :lang(en) {
     font-family: "Noto Sans", sans-serif;
 }
