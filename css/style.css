@@ -25,20 +25,20 @@
     margin: 0;
 }
 
-.tai {
+:lang(nan) {
     font-family: "Nunito POJ", sans-serif;
 }
 
-.zh-hant {
+:lang(zh-Hant) {
     font-family: "Noto Sans TC", sans-serif;
 }
 
-.latn {
+:lang(en) {
     font-family: "Noto Sans", sans-serif;
 }
 
-.shaw {
-    font-family: "Noto Sans Shavian", sans-serif
+:lang(en-Shaw) {
+    font-family: "Noto Sans Shavian", sans-serif;
 }
 
 body {
