@@ -113,8 +113,6 @@ a:hover {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 8px;
-    transition: 0.5s;
-    transition-timing-function: ease;
 }
 
 .dropdown-content li a {
@@ -124,8 +122,6 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    transition: 0.5s;
-    transition-timing-function: ease;
 }
 
 /* END NAVBAR NEW */
