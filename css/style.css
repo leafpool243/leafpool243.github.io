@@ -72,7 +72,6 @@ a:hover {
     color: #fff;
     height: auto;
     padding: 6px 0px;
-    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -114,6 +113,8 @@ a:hover {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 8px;
+    transition: 0.5s;
+    transition-timing-function: ease;
 }
 
 .dropdown-content li a {
@@ -123,6 +124,8 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    transition: 0.5s;
+    transition-timing-function: ease;
 }
 
 /* END NAVBAR NEW */
@@ -198,10 +201,6 @@ a:hover {
 }
 
 */
-
-.main {
-    margin-top: 70px;
-}
 
 h1,
 h2 {
