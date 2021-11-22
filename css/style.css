@@ -18,6 +18,7 @@
     --primary-color: #047aed;
     --secondary-color: #006cd8;
     --tertiary-color: #0068cf;
+    --quatenary-color: #0055aa;
     --background-color: #f4e0ff;
 }
 
@@ -271,8 +272,14 @@ img {
         flex-direction: column
     }
 
-    .navbar ul {
+    .navbar .container nav {
         padding: 10px;
         border-radius: 10px;
+        background-color: var(--quatenary-color);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .current a {
+        background-color: inherit;
     }
 }
