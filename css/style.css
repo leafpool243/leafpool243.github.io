@@ -88,6 +88,7 @@ a:hover {
 
 .navbar .container nav ul li {
     display: inline;
+    float: left;
 }
 
 .navbar .container nav ul li a {
