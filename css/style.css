@@ -90,7 +90,6 @@ a:hover {
 .navbar .container nav ul li {
     display: inline;
     float: left;
-    padding: 10px;
     border-radius: 8px;
 }
 
@@ -102,18 +101,22 @@ a:hover {
 
 .navbar .container nav ul li a {
     color: #fff;
-}
-
-.navbar .container nav ul li:hover {
-    background-color: var(--secondary-color);
-    color: #fff;
+    padding: 10px 10px;
     transition: 0.5s;
+    border-radius: 8px;
     transition-timing-function: ease;
 }
 
 .navbar .container nav ul li a:hover {
     color: #fff;
     border-bottom: none;
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.dropbtn:hover {
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -126,7 +129,12 @@ a:hover {
     border-radius: 8px;
 }
 
+.dropdown-content li {
+    padding: 0 !important;
+}
+
 .dropdown-content li a {
+    padding: 10px;
     display: block;
 }
 
@@ -134,7 +142,7 @@ a:hover {
     display: block;
 }
 
-.current {
+.current a {
     background-color: var(--tertiary-color);
 }
 
