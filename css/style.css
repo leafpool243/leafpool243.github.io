@@ -16,7 +16,8 @@
 
 :root {
     --primary-color: #047aed;
-    --secondary-color: #f4e0ff;
+    --secondary-color: #006cd8;
+    --background-color: #f4e0ff;
 }
 
 * {
@@ -52,17 +53,82 @@ em:lang(zh-Hant) {
 body {
     line-height: 1.6;
 
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
 }
 
 a {
     text-decoration: none;
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 a:hover {
-    border-bottom: 1px rgb(5, 5, 5) solid;
+    border-bottom: 1px var(--primary-color) solid;
 }
+
+/* NAVBAR NEW */
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: auto;
+    padding: 6px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar .container nav ul li {
+    display: inline;
+}
+
+.navbar .container nav ul li a {
+    color: #fff;
+    padding: 10px;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.navbar .container nav ul li a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border-bottom: none;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0463BF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content li a {
+    padding: 10px !important;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* END NAVBAR NEW */
+
+
+/* NAVBAR OLD
 
 .navbar ul li a:hover {
     border-bottom: 2px #fff solid;
@@ -102,6 +168,10 @@ a:hover {
     border-bottom: none !important;
 }
 
+.lang {
+    position: static;
+}
+
 .lang:hover ul {
     display: block;
 }
@@ -125,6 +195,12 @@ a:hover {
     background-color: #0051a1;
     border-radius: 10px;
     border-bottom: none;
+}
+
+*/
+
+.main {
+    margin-top: 70px;
 }
 
 h1,
