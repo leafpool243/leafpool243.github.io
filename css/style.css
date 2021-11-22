@@ -16,7 +16,9 @@
 
 :root {
     --primary-color: #047aed;
-    --secondary-color: #f4e0ff;
+    --secondary-color: #006cd8;
+    --tertiary-color: #0068cf;
+    --background-color: #f4e0ff;
 }
 
 * {
@@ -52,17 +54,94 @@ em:lang(zh-Hant) {
 body {
     line-height: 1.6;
 
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
 }
 
 a {
     text-decoration: none;
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 a:hover {
-    border-bottom: 1px rgb(5, 5, 5) solid;
+    border-bottom: 1px var(--primary-color) solid;
 }
+
+/* NAVBAR NEW */
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: auto;
+    padding: 6px 0px;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.navbar .container nav ul li {
+    display: inline;
+    float: left;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar .container nav ul li {
+    transition: 0.5s;
+    color: #fff;
+    transition-timing-function: ease;
+}
+
+.navbar .container nav ul li a {
+    color: #fff;
+}
+
+.navbar .container nav ul li:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.navbar .container nav ul li a:hover {
+    color: #fff;
+    border-bottom: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0463BF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content li a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.current {
+    background-color: var(--tertiary-color);
+}
+
+/* END NAVBAR NEW */
+
+
+/* NAVBAR OLD
 
 .navbar ul li a:hover {
     border-bottom: 2px #fff solid;
@@ -102,6 +181,10 @@ a:hover {
     border-bottom: none !important;
 }
 
+.lang {
+    position: static;
+}
+
 .lang:hover ul {
     display: block;
 }
@@ -126,6 +209,8 @@ a:hover {
     border-radius: 10px;
     border-bottom: none;
 }
+
+*/
 
 h1,
 h2 {
