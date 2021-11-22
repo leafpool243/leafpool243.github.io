@@ -17,6 +17,7 @@
 :root {
     --primary-color: #047aed;
     --secondary-color: #006cd8;
+    --tertiary-color: #0068cf;
     --background-color: #f4e0ff;
 }
 
@@ -89,21 +90,30 @@ a:hover {
 .navbar .container nav ul li {
     display: inline;
     float: left;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar .container nav ul li {
+    transition: 0.5s;
+    color: #fff;
+    transition-timing-function: ease;
 }
 
 .navbar .container nav ul li a {
     color: #fff;
-    padding: 10px;
+}
+
+.navbar .container nav ul li:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
     transition: 0.5s;
     transition-timing-function: ease;
 }
 
 .navbar .container nav ul li a:hover {
-    background-color: var(--secondary-color);
-    border-radius: 8px;
+    color: #fff;
     border-bottom: none;
-    transition: 0.5s;
-    transition-timing-function: ease;
 }
 
 .dropdown-content {
@@ -117,12 +127,15 @@ a:hover {
 }
 
 .dropdown-content li a {
-    padding: 10px !important;
     display: block;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.current {
+    background-color: var(--tertiary-color);
 }
 
 /* END NAVBAR NEW */
