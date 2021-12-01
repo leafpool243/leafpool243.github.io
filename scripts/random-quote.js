@@ -1,4 +1,4 @@
-const randomQuote = () => {
+const randomQuote = (randomQuoteEl) => {
     const quoteList = [
         "Meow!! <3",
         "Nyaa!! <3",
@@ -9,7 +9,6 @@ const randomQuote = () => {
         "<q>We are NOT calling it <q>magical death spit</q>!!</q>",
         "Snudoo"
     ]
-    const randomQuoteEl = document.getElementById("random-quote");
     const chosenQuote = quoteList[Math.floor(Math.random() * quoteList.length)];
-    return chosenQuote;
+    randomQuoteEl.innerHTML = chosenQuote
 };

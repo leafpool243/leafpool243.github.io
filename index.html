@@ -30,7 +30,7 @@
     </div>
     <div class="main">
         <div class="container">
-            <h2><q><span id="random-quote"></span></q></h2>
+            <h2 onclick="randomQuote(document.getElementById('random-quote'))"><q><span id="random-quote"></span></q></h2>
             <p>I&rsquo;m AmberWing! Yea, umm if you&rsquo;re reading this, well . . . find something better to do. I'm just using this to learn stuff about HTML/CSS.</p>
             <p>If you want to know what I have to say, go to <a href="amberwing-says.html">AmberWing says</a>.</p>
         </div>
@@ -38,8 +38,7 @@
 
     <script src="scripts/random-quote.js"></script>
     <script>
-        document.getElementById("random-quote").innerHTML = randomQuote();
-        console.log(randomQuote());
+        randomQuote(document.getElementById("random-quote"));
     </script>
 </body>
 
