@@ -30,13 +30,17 @@
     </div>
     <div class="main">
         <div class="container">
-            <h2><q lang="en"><span id="random-quote"></span></q></h2>
+            <h2 id="random-quote-container"><q lang="en"><span id="random-quote"></span></q></h2>
             <p>我是 AmberWing！呃……如果你在看這個網頁，去找別的東西做。我只是用這個來學 HTML 和 CSS。</p>
             <p>如果您想知道我想要說甚麼，去<a href="amberwing-says.html">琥珀翼說</a>。</p>
         </div>
     </div>
 
     <script src="../scripts/random-quote.js"></script>
+    <script>
+        document.getElementById("random-quote").innerHTML = randomQuote();
+        console.log(randomQuote());
+    </script>
 </body>
 
 </html>
