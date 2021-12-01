@@ -5,7 +5,8 @@ const quoteList = [
     "uwu",
     "owo",
     "dogs bad /j",
-    "<q>We are NOT calling it <q>magical death spit</q>!!</q>"
+    "<q>We are NOT calling it <q>magical death spit</q>!!</q>",
+    "Snudoo"
 ]
 const randomQuoteEl = document.getElementById("random-quote");
 const chosenQuote = quoteList[Math.floor(Math.random() * quoteList.length)];
