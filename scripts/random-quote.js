@@ -8,6 +8,6 @@ const quoteList = [
     "<q>We are NOT calling it <q>magical death spit</q>!!</q>"
 ]
 const randomQuoteEl = document.getElementById("random-quote");
-const chosenQuote = quoteList[Math.floor(Math.random() * quoteList.length)]
+const chosenQuote = quoteList[Math.floor(Math.random() * quoteList.length)];
 randomQuoteEl.innerHTML = chosenQuote;
 console.log(Math.random() * quoteList.length);
