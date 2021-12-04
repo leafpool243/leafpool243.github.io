@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 
-@font-face {
-    font-family: 'Noto Sans Shavian';
-    src: url('../fonts/NotoSansShavian.woff2')  format('woff2'),
-    url('../fonts/NotoSansShavian.woff')  format('woff'),
-    url('../fonts/NotoSansShavian.ttf')  format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&display=swap');
 
 @font-face{
     font-family:tauhu-oo;
