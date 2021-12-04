@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
-@font-face {
-    font-family: 'Nunito POJ';
-    src: url('../fonts/nunitopoj.woff2')  format('woff2'),
-    url('../fonts/nunitopoj.woff')  format('woff'),
-    url('../fonts/nunitopoj.ttf')  format('truetype');
-}
 
 @font-face {
     font-family: 'Noto Sans Shavian';
     src: url('../fonts/NotoSansShavian.woff2')  format('woff2'),
     url('../fonts/NotoSansShavian.woff')  format('woff'),
     url('../fonts/NotoSansShavian.ttf')  format('truetype');
+}
+
+@font-face{
+    font-family:tauhu-oo;
+    src: url(https://tauhu.tw/TauhuOo20.05-Regular.woff2) format("woff2"),
+    url(https://tauhu.tw/TauhuOo20.05-Regular.woff) format("woff"),
+    url(https://tauhu.tw/TauhuOo20.05-Regular.otf) format("opentype");
 }
 
 :root {
@@ -29,7 +30,7 @@
 }
 
 :lang(nan) {
-    font-family: "Nunito POJ", sans-serif;
+    font-family: tauhu-oo;
 }
 
 :lang(zh-Hant) {
