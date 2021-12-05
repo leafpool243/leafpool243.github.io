@@ -6,28 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>AmberWing&rsquo;s website</title>
+    <script type="module" src="/scripts/en-templates.js"></script>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="navtitle">AmberWing&rsquo;s Website</h1>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="amberwing-says.html">AmberWing says</a></li>
-                    <li class="dropdown">
-                        <a class="dropbtn">Languages</a>
-                        <ul class="dropdown-content">
-                            <li><a lang="en" href="index.html">English</a></li>
-                            <li><a lang="zh-Hant" href="zh-hant/index.html">繁體中文</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <aw-header></aw-header>    
+ 
     <div class="main">
         <div class="container">
             <h2 class="no-selection" onclick="randomQuote(document.getElementById('random-quote'))"><q><span id="random-quote"></span></q></h2>

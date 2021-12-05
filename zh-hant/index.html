@@ -6,28 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>琥珀翼的網站</title>
+    <script type="module" src="../scripts/zh-templates.js"></script>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="navtitle">琥珀翼的網站</h1>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">首頁</a></li>
-                    <li><a href="about.html">關於我</a></li>
-                    <li><a href="amberwing-says.html">琥珀翼說</a></li>
-                    <li class="dropdown">
-                        <a class="dropbtn">語言</a>
-                        <ul class="dropdown-content">
-                            <li><a lang="en" href="../index.html">English</a></li>
-                            <li><a lang="zh-Hant" href="index.html">繁體中文</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <aw-header></aw-header>
+    
     <div class="main">
         <div class="container">
             <h2 class="no-selection" onclick="randomQuote(document.getElementById('random-quote'))"><q lang="en"><span id="random-quote"></span></q></h2>
