@@ -9,13 +9,13 @@ class header extends HTMLElement {
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/about.html">About</a></li>
                         <li><a href="/amberwing-says.html">AmberWing says</a></li>
-                        <li class="dropdown">
+<!--                        <li class="dropdown">
                             <a class="dropbtn">Languages</a>
                             <ul class="dropdown-content">
                                 <li><a lang="en" href="/index.html">English</a></li>
                                 <li><a lang="zh-Hant" href="/zh-hant/index.html">繁體中文</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </nav>
             </div>
