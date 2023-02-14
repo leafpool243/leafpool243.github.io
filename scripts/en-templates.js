@@ -6,14 +6,14 @@ class header extends HTMLElement {
                 <h1 class="navtitle">AmberWing&rsquo;s Website</h1>
                 <nav>
                     <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/about.html">About</a></li>
-                        <li><a href="/amberwing-says.html">AmberWing says</a></li>
+                        <li><a href="/index">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/amberwing-says">AmberWing says</a></li>
 <!--                        <li class="dropdown">
                             <a class="dropbtn">Languages</a>
                             <ul class="dropdown-content">
-                                <li><a lang="en" href="/index.html">English</a></li>
-                                <li><a lang="zh-Hant" href="/zh-hant/index.html">繁體中文</a></li>
+                                <li><a lang="en" href="/index">English</a></li>
+                                <li><a lang="zh-Hant" href="/zh-hant/">繁體中文</a></li>
                             </ul>
                         </li>-->
                     </ul>
