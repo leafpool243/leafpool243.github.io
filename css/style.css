@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&display=swap');
 
 @font-face{
@@ -8,6 +7,11 @@
     src: url(https://tauhu.tw/TauhuOo20.05-Regular.woff2) format("woff2"),
     url(https://tauhu.tw/TauhuOo20.05-Regular.woff) format("woff"),
     url(https://tauhu.tw/TauhuOo20.05-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Babelstone Runic";
+    src: url(https://www.babelstone.co.uk/Fonts/WOFF/BabelStoneRunic.woff2);
 }
 
 :root {
@@ -48,12 +52,25 @@ em:lang(zh-Hant) {
     font-family: "Noto Sans Shavian", sans-serif;
 }
 
+:lang(en-Runr) {
+    font-family: "Babelstone Runic", sans-serif;
+}
+
+em:lang(en-Runr) {
+    font-style: normal;
+    color: red;
+}
+
 q:lang(en) {
     quotes: "“" "”" "‘" "’" "«" "»" "‹" "›";
 }
 
 q:lang(zh) {
     quotes: "「" "」" "『" "』" "“" "”" "‘" "’";
+}
+
+.smallcaps {
+    font-variant: small-caps;
 }
 
 body {
@@ -166,6 +183,14 @@ p {
 
 img {
     width: 100%;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+li > ul, li > ol, ul > ul, ol > ol, ul > ol, ol > ul {
+    padding: 0 0 0 40px;
 }
 
 .home1 {
