@@ -6,7 +6,7 @@ class header extends HTMLElement {
                 <h1 class="navtitle">AmberWing&rsquo;s Website</h1>
                 <nav>
                     <ul>
-                        <li><a href="/index">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/amberwing-says">AmberWing says</a></li>
                         <li><a href="/stuff">Stuff</a></li>
